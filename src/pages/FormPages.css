@@ -1,0 +1,9 @@
+.form-page {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.form-page h2 {
+    margin: 0;
+    font-size: 2rem;
+}

@@ -1,0 +1,31 @@
+.summary-page {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.summary-page header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-page h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.primary-link {
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 0.65rem 1.2rem;
+    border-radius: 0.6rem;
+    font-weight: 600;
+}
+
+.primary-link:hover {
+    filter: brightness(1.1);
+}
+
+.error {
+    color: #f87171;
+}

@@ -1,0 +1,38 @@
+.detail-page {
+    display: grid;
+    gap: 1.8rem;
+    max-width: 720px;
+}
+
+.detail-page header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-page h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.detail-page dl {
+    display: grid;
+    gap: 1rem;
+    background: rgba(15, 23, 42, 0.8);
+    border-radius: 0.9rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(100, 116, 139, 0.25);
+}
+
+.detail-page dt {
+    font-weight: 600;
+    color: #38bdf8;
+}
+
+.detail-page dd {
+    margin: 0.2rem 0 0;
+}
+
+.error {
+    color: #f87171;
+}

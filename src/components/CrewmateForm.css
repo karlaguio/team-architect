@@ -1,0 +1,83 @@
+.crewmate-form {
+    display: grid;
+    gap: 1.25rem;
+    max-width: 640px;
+}
+
+.crewmate-form label {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.crewmate-form input,
+.crewmate-form textarea {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    color: inherit;
+}
+
+.crewmate-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    display: grid;
+    gap: 0.5rem;
+}
+
+legend {
+    font-weight: 600;
+}
+
+.option-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.option-row button {
+    background: #1e293b;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    padding: 0.45rem 1.1rem;
+    cursor: pointer;
+    color: inherit;
+    transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.option-row button:hover {
+    transform: translateY(-2px);
+}
+
+.option-row button.selected {
+    background: #38bdf8;
+    color: #0f172a;
+}
+
+.form-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.form-actions button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.6rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.form-actions button[type='submit'] {
+    background: #38bdf8;
+    color: #0f172a;
+}
+
+.form-actions .danger {
+    background: #f87171;
+    color: #0f172a;
+}
